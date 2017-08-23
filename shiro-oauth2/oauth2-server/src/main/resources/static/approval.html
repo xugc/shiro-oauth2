@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>login.html</title>
+
+<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+<meta http-equiv="description" content="this is my page">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+</head>
+
+<body>
+	<form action="/oauth/authorize" method="post">
+		<label>Write:</label><input type="radio" name='write' value="0" />agree<input type="radio" name='write' value="1" />deny
+		<label>Read:</label><input type="radio" name='read' value="0" />agree<input type="radio" name='read' value="1" />deny
+		<button type="submit">auth</button>
+	</form>
+</body>
+</html>
